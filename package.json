@@ -1,0 +1,21 @@
+{
+  "name": "gobobot",
+  "version": "0.0.0",
+  "description": "A twitch moderation bot",
+  "main": "src",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noodle3884",
+  "license": "ISC",
+  "dependencies": {
+    "@twurple/api": "^5.0.13",
+    "@twurple/auth": "^5.0.13",
+    "@twurple/chat": "^5.0.13",
+    "@twurple/eventsub": "^5.0.13",
+    "esm": "^3.2.25",
+    "tmi.js": "^1.8.5",
+    "twitch": "^4.6.7"
+  }
+}
